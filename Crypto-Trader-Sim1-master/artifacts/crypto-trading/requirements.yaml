@@ -1,0 +1,18 @@
+packages:
+  "framer-motion": "For smooth glassmorphic page transitions and micro-interactions"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility function to efficiently merge Tailwind CSS classes"
+  "date-fns": "For formatting order timestamps"
+  "lucide-react": "For beautiful UI icons"
+  "@hookform/resolvers": "For Zod form validation"
+  "react-hook-form": "For robust order form state management"
+
+images:
+  - path: "artifacts/crypto-trading/public/images/bg-mesh.png"
+    description: "Dark, moody abstract gradient mesh background with deep navy, subtle cyan and rich purple hues, designed for a professional crypto trading platform. High quality, 4k, smooth blending."
+    aspect_ratio: "16:9"
+
+notes:
+  - Using generated React Query hooks from @workspace/api-client-react
+  - Connecting directly to Binance WebSocket for live order book and ticker data
+  - Using TradingView widget iframe for chart to avoid 3rd party package dependencies
